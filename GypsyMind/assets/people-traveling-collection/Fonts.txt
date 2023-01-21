@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Barrio
+Author: Omnibus Type
+Url: http://www.fontsquirrel.com/fonts/barrio
+
+Font: Grand Hotel
+Author: Astigmatic
+Url: http://www.fontsquirrel.com/fonts/grand-hotel
