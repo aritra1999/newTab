@@ -1,0 +1,139 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Product Sans' !important;
+    background: black;
+}
+
+body {
+    margin: 0;
+}
+
+.container-fluid {
+    height: 90%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock-content {
+    width: auto;
+}
+
+
+.clock {
+    font-size: 200px;
+    background: url("bg4.jpeg");
+    background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.date,
+.day {
+    color: rgb(145, 183, 255);
+    font-size: 20px;
+    text-align: right;
+}
+
+#meridiem {
+    font-size: 170px;
+}
+
+.search {
+    margin-top: 50px;
+    width: 80%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    font-family: 'Product Sans' !important;
+    font-weight: bolder;
+    border: 2px solid rgb(255, 255, 255);
+    border-right: none;
+    background: transparent;
+    color: white;
+    width: 100%;
+    padding: 15px 70px;
+    font-size: 17px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-right: none;
+    outline: none;      
+}
+#currentSec{
+    font-size: 100px !important;
+    padding: 20px 30px;
+}
+.sec{
+    float: right;
+	width: 100px;
+}
+
+.searchButton {
+    border: 2px solid rgb(255, 255, 255);
+    border-left: none;
+    color: white !important;
+    background: transparent;
+    padding: 15px 30px;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 17px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+}
+
+.footer-text {
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.sidebar-bottom {
+    position: fixed;
+    bottom: 30px;
+    left: -35px;
+}
+
+.sidebar-bottom li {
+    display: inline;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    background: rgb(31, 31, 31);
+    text-align: center;
+}
+.sidebar-bottom li a{
+    font-size:17px;
+    color: rgb(78, 78, 255);
+}
+
+.sidebar-right{
+    position: fixed;
+    right: 20px;
+    top:20px;
+}
+.sidebar-right i{
+    
+}

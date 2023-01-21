@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="clock-container">
+            <div class="clock-content">
+                <div class="clock" id="clock"></div>
+                <div class="day" id="day"></div>
+                <div class="date" id="date"></div>
+            </div>
+        </div>
+        <div class="link-container">
+            <div class="link-content">
+                <ul>
+                    <li class="first-item"> Hello World1</li>
+                    <li> Hello World1</li>
+                    <li> Hello World1</li>
+                    <li> Hello World1</li>
+                    <li> Hello World1</li>
+                    <li> Hello World</li>
+                    <li> Hello World</li>
+                    <li> Hello World</li>
+                    <li> Hello World</li>
+                    <li> Hello World</li>
+                    <li> Hello World</li>
+                    <li> Hello World</li>
+                    <li> Hello World</li>
+                    <li> Hello World</li>
+                    <li> Hello World</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <button class="add-link" onclick="addLinkModal()">
+        Add Link
+    </button>
+
+    <div class="modal" id="modal">
+        <div class="modal-container">
+            <div class="modal-head">
+                <h2>Add Link</h2>
+                <button class="close-modal-button" onclick="closeModal()">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="height: 17px; width: 17px" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form onsubmit="addLink()" class="add-link-form">
+                    <input type="text" placeholder="Enter title" />
+                    <input type="text" placeholder="Enter link" />
+                    <button type="submit" class="submit-button">
+                        Add Link
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
